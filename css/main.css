@@ -3,9 +3,18 @@
 
 }
 
+
 #logo{
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
+}
+ #top-section{
+    display: flex;
+    background-color:brown;
+    margin-top: 0;
+    color: white;
+    height: 30px;
+    justify-content: left;align-items: center;
 }
 nav{
     display: flex;
@@ -28,4 +37,11 @@ nav button{
     border-width: 1px;
     border-style: solid;
     
+}
+#hero-image{
+    width: 150vw;
+    height: 100vh ;
+    background-size: cover;
+    background-image: url(../assets/images/hero-image.jpg);
+margin-top: -10px;
 }
